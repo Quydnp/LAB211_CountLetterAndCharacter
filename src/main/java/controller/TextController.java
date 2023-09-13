@@ -4,7 +4,6 @@
  */
 package controller;
 
-import controller.TextAnalyzer;
 import java.util.Map;
 import java.util.Scanner;
 import model.TextView;
@@ -17,14 +16,16 @@ import view.menu;
 public class TextController extends menu<String> {
     private TextAnalyzer model;
     private TextView view;
-    private Scanner scanner;
+    private Scanner sc;
 
-    public TextController(TextAnalyzer model, TextView view, Scanner scanner) {
-        this.model = model;
-        this.view = view;
-        this.scanner = scanner;
+    public TextController() {
+        super("Word and Character Count PROGRAM", options);
+        model = new TextAnalyzer(""); 
+        sc = new Scanner(System.in);
+        view = new TextView(sc); 
+
     }
-
+    static String[] options = {"Word Count and Letter Count", "Exit"};
     
 
     @Override

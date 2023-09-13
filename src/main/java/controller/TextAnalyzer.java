@@ -30,7 +30,7 @@ public class TextAnalyzer {
         Map<String,Integer> wordcount = new HashMap();
         StringTokenizer token = new StringTokenizer(text);
         while(token.hasMoreTokens()){
-            String word=token.nextToken();
+            String word = token.nextToken();
             wordcount.put(word, wordcount.getOrDefault(word, 0)+1);
             
         }
