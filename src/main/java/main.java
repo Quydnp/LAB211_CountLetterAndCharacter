@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
-import model.TextAnalyzer;
-import model.TextController;
+import controller.TextAnalyzer;
+import controller.TextController;
 import model.TextView;
 import view.menu;
 

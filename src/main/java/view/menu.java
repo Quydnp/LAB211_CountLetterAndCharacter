@@ -4,7 +4,7 @@
  */
 package view;
 
-import controller.Library;
+import model.Library;
 import java.util.ArrayList;
 
 /**
