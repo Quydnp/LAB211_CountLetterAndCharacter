@@ -1,9 +1,6 @@
 
 import java.util.Scanner;
-import controller.TextAnalyzer;
 import controller.TextController;
-import model.TextView;
-import view.menu;
 
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
